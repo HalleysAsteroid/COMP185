@@ -1,0 +1,17 @@
+C:\Users\lah111\source\repos\HalleysAsteroid\COMP185\Lab1_ClickableFlags\bin\Debug\net7.0-windows\Lab1_ClickableFlags.exe
+C:\Users\lah111\source\repos\HalleysAsteroid\COMP185\Lab1_ClickableFlags\bin\Debug\net7.0-windows\Lab1_ClickableFlags.deps.json
+C:\Users\lah111\source\repos\HalleysAsteroid\COMP185\Lab1_ClickableFlags\bin\Debug\net7.0-windows\Lab1_ClickableFlags.runtimeconfig.json
+C:\Users\lah111\source\repos\HalleysAsteroid\COMP185\Lab1_ClickableFlags\bin\Debug\net7.0-windows\Lab1_ClickableFlags.dll
+C:\Users\lah111\source\repos\HalleysAsteroid\COMP185\Lab1_ClickableFlags\bin\Debug\net7.0-windows\Lab1_ClickableFlags.pdb
+C:\Users\lah111\source\repos\HalleysAsteroid\COMP185\Lab1_ClickableFlags\obj\Debug\net7.0-windows\Lab1_ClickableFlags.Lab1_ClickableFlags.resources
+C:\Users\lah111\source\repos\HalleysAsteroid\COMP185\Lab1_ClickableFlags\obj\Debug\net7.0-windows\Lab1_ClickableFlags.csproj.GenerateResource.cache
+C:\Users\lah111\source\repos\HalleysAsteroid\COMP185\Lab1_ClickableFlags\obj\Debug\net7.0-windows\Lab1_ClickableFlags.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lah111\source\repos\HalleysAsteroid\COMP185\Lab1_ClickableFlags\obj\Debug\net7.0-windows\Lab1_ClickableFlags.AssemblyInfoInputs.cache
+C:\Users\lah111\source\repos\HalleysAsteroid\COMP185\Lab1_ClickableFlags\obj\Debug\net7.0-windows\Lab1_ClickableFlags.AssemblyInfo.cs
+C:\Users\lah111\source\repos\HalleysAsteroid\COMP185\Lab1_ClickableFlags\obj\Debug\net7.0-windows\Lab1_ClickableFlags.csproj.CoreCompileInputs.cache
+C:\Users\lah111\source\repos\HalleysAsteroid\COMP185\Lab1_ClickableFlags\obj\Debug\net7.0-windows\Lab1_ClickableFlags.dll
+C:\Users\lah111\source\repos\HalleysAsteroid\COMP185\Lab1_ClickableFlags\obj\Debug\net7.0-windows\refint\Lab1_ClickableFlags.dll
+C:\Users\lah111\source\repos\HalleysAsteroid\COMP185\Lab1_ClickableFlags\obj\Debug\net7.0-windows\Lab1_ClickableFlags.pdb
+C:\Users\lah111\source\repos\HalleysAsteroid\COMP185\Lab1_ClickableFlags\obj\Debug\net7.0-windows\Lab1_ClickableFlags.genruntimeconfig.cache
+C:\Users\lah111\source\repos\HalleysAsteroid\COMP185\Lab1_ClickableFlags\obj\Debug\net7.0-windows\ref\Lab1_ClickableFlags.dll
+C:\Users\lah111\source\repos\HalleysAsteroid\COMP185\Lab1_ClickableFlags\obj\Debug\net7.0-windows\Lab1_ClickableFlags.Properties.Resources.resources
