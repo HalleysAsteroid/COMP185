@@ -43,6 +43,7 @@
             imgChicken4 = new PictureBox();
             imgWood = new PictureBox();
             lblTitle = new Label();
+            btnSubmit = new Button();
             ((System.ComponentModel.ISupportInitialize)numChicken1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numChicken2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numChicken4).BeginInit();
@@ -58,67 +59,73 @@
             // 
             // numChicken1
             // 
-            numChicken1.Location = new Point(12, 385);
+            numChicken1.Location = new Point(200, 346);
             numChicken1.Margin = new Padding(5);
+            numChicken1.Minimum = new decimal(new int[] { 1, 0, 0, int.MinValue });
             numChicken1.Name = "numChicken1";
-            numChicken1.Size = new Size(189, 29);
+            numChicken1.Size = new Size(150, 29);
             numChicken1.TabIndex = 0;
             numChicken1.Leave += numChicken1_Leave;
             // 
             // numChicken2
             // 
-            numChicken2.Location = new Point(560, 385);
+            numChicken2.Location = new Point(450, 346);
             numChicken2.Margin = new Padding(5);
+            numChicken2.Minimum = new decimal(new int[] { 1, 0, 0, int.MinValue });
             numChicken2.Name = "numChicken2";
-            numChicken2.Size = new Size(189, 29);
+            numChicken2.Size = new Size(150, 29);
             numChicken2.TabIndex = 1;
             numChicken2.Leave += numChicken2_Leave;
             // 
             // numChicken4
             // 
-            numChicken4.Location = new Point(560, 650);
+            numChicken4.Location = new Point(450, 637);
             numChicken4.Margin = new Padding(5);
+            numChicken4.Minimum = new decimal(new int[] { 1, 0, 0, int.MinValue });
             numChicken4.Name = "numChicken4";
-            numChicken4.Size = new Size(189, 29);
+            numChicken4.Size = new Size(150, 29);
             numChicken4.TabIndex = 2;
             numChicken4.Leave += numChicken4_Leave;
             // 
             // numChicken3
             // 
-            numChicken3.Location = new Point(25, 650);
+            numChicken3.Location = new Point(200, 637);
             numChicken3.Margin = new Padding(5);
+            numChicken3.Minimum = new decimal(new int[] { 1, 0, 0, int.MinValue });
             numChicken3.Name = "numChicken3";
-            numChicken3.Size = new Size(189, 29);
+            numChicken3.Size = new Size(150, 29);
             numChicken3.TabIndex = 3;
             numChicken3.Leave += numChicken3_Leave;
             // 
             // lblSum
             // 
             lblSum.AutoSize = true;
-            lblSum.Location = new Point(206, 90);
+            lblSum.Location = new Point(208, 108);
             lblSum.Margin = new Padding(5, 0, 5, 0);
             lblSum.Name = "lblSum";
             lblSum.Size = new Size(49, 23);
             lblSum.TabIndex = 4;
             lblSum.Text = "Sum";
+            lblSum.Visible = false;
             // 
             // lblAverage
             // 
             lblAverage.AutoSize = true;
-            lblAverage.Location = new Point(206, 127);
+            lblAverage.Location = new Point(208, 145);
             lblAverage.Margin = new Padding(5, 0, 5, 0);
             lblAverage.Name = "lblAverage";
             lblAverage.Size = new Size(42, 23);
             lblAverage.TabIndex = 5;
             lblAverage.Text = "Avg";
+            lblAverage.Visible = false;
             // 
             // grpResults
             // 
             grpResults.BackColor = Color.FromArgb(151, 126, 82);
-            grpResults.Controls.Add(lblFlavor);
             grpResults.Controls.Add(imgRancher);
             grpResults.Controls.Add(lblAverage);
             grpResults.Controls.Add(lblSum);
+            grpResults.Controls.Add(lblFlavor);
             grpResults.Location = new Point(-8, 685);
             grpResults.Name = "grpResults";
             grpResults.Size = new Size(816, 200);
@@ -127,12 +134,11 @@
             // 
             // lblFlavor
             // 
-            lblFlavor.AutoSize = true;
-            lblFlavor.Location = new Point(195, 43);
+            lblFlavor.Location = new Point(195, 48);
             lblFlavor.Name = "lblFlavor";
-            lblFlavor.Size = new Size(336, 23);
+            lblFlavor.Size = new Size(562, 120);
             lblFlavor.TabIndex = 1;
-            lblFlavor.Text = "Howdy, pardner! Looks like you've got ";
+            lblFlavor.Text = "Howdy, pardner! Looks like you've got some eggs ta count! ";
             // 
             // imgRancher
             // 
@@ -148,7 +154,7 @@
             // 
             imgChicken1.BackColor = Color.Transparent;
             imgChicken1.Image = Properties.Resources.chicken;
-            imgChicken1.Location = new Point(25, 227);
+            imgChicken1.Location = new Point(200, 175);
             imgChicken1.Name = "imgChicken1";
             imgChicken1.Size = new Size(150, 150);
             imgChicken1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -159,7 +165,7 @@
             // 
             imgChicken2.BackColor = Color.Transparent;
             imgChicken2.Image = Properties.Resources.chicken;
-            imgChicken2.Location = new Point(51, 452);
+            imgChicken2.Location = new Point(200, 466);
             imgChicken2.Name = "imgChicken2";
             imgChicken2.Size = new Size(150, 150);
             imgChicken2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -170,7 +176,7 @@
             // 
             imgChicken3.BackColor = Color.Transparent;
             imgChicken3.Image = Properties.Resources.chicken;
-            imgChicken3.Location = new Point(577, 227);
+            imgChicken3.Location = new Point(450, 175);
             imgChicken3.Name = "imgChicken3";
             imgChicken3.Size = new Size(150, 150);
             imgChicken3.SizeMode = PictureBoxSizeMode.Zoom;
@@ -181,7 +187,7 @@
             // 
             imgChicken4.BackColor = Color.Transparent;
             imgChicken4.Image = Properties.Resources.chicken;
-            imgChicken4.Location = new Point(577, 462);
+            imgChicken4.Location = new Point(450, 466);
             imgChicken4.Name = "imgChicken4";
             imgChicken4.Size = new Size(150, 150);
             imgChicken4.SizeMode = PictureBoxSizeMode.Zoom;
@@ -211,12 +217,24 @@
             lblTitle.TextAlign = ContentAlignment.MiddleCenter;
             lblTitle.Click += label1_Click;
             // 
+            // btnSubmit
+            // 
+            btnSubmit.Location = new Point(325, 403);
+            btnSubmit.Name = "btnSubmit";
+            btnSubmit.Size = new Size(150, 35);
+            btnSubmit.TabIndex = 13;
+            btnSubmit.Text = "Get countin'!";
+            btnSubmit.UseVisualStyleBackColor = true;
+            btnSubmit.Click += btnSubmit_Click;
+            // 
             // Lab2_ChickenEggs
             // 
+            AcceptButton = btnSubmit;
             AutoScaleDimensions = new SizeF(11F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.straw;
             ClientSize = new Size(800, 877);
+            Controls.Add(btnSubmit);
             Controls.Add(lblTitle);
             Controls.Add(imgWood);
             Controls.Add(imgChicken4);
@@ -265,5 +283,6 @@
         private Label lblTitle;
         private Label lblFlavor;
         private PictureBox imgRancher;
+        private Button btnSubmit;
     }
 }

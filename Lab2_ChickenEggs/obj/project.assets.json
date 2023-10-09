@@ -8,23 +8,23 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ldaniels5\\.nuget\\packages\\": {},
+    "C:\\Users\\theun\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ldaniels5\\Source\\Repos\\HalleysAsteroid\\COMP185\\Lab2_ChickenEggs\\Lab2_ChickenEggs.csproj",
+      "projectUniqueName": "C:\\Users\\Public\\source\\repos\\HalleysAsteroid\\COMP185\\Lab2_ChickenEggs\\Lab2_ChickenEggs.csproj",
       "projectName": "Lab2_ChickenEggs",
-      "projectPath": "C:\\Users\\ldaniels5\\Source\\Repos\\HalleysAsteroid\\COMP185\\Lab2_ChickenEggs\\Lab2_ChickenEggs.csproj",
-      "packagesPath": "C:\\Users\\ldaniels5\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ldaniels5\\Source\\Repos\\HalleysAsteroid\\COMP185\\Lab2_ChickenEggs\\obj\\",
+      "projectPath": "C:\\Users\\Public\\source\\repos\\HalleysAsteroid\\COMP185\\Lab2_ChickenEggs\\Lab2_ChickenEggs.csproj",
+      "packagesPath": "C:\\Users\\theun\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Public\\source\\repos\\HalleysAsteroid\\COMP185\\Lab2_ChickenEggs\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ldaniels5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\theun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

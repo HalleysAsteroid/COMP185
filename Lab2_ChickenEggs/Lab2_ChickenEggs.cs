@@ -43,6 +43,17 @@ namespace Lab2_ChickenEggs
                 lblAverage.Visible = true;
                 lblSum.Visible = true;
             }
+            else if (numChicken1.Value > 15 || numChicken2.Value > 15 || numChicken3.Value > 15 || numChicken4.Value > 15)
+            {
+                imgRancher.Image = Properties.Resources.rancherHappy;
+                double sum = calculateSum((double)numChicken1.Value, (double)numChicken2.Value, (double)numChicken3.Value, (double)numChicken4.Value);
+                double avg = calculateAvg((double)numChicken1.Value, (double)numChicken2.Value, (double)numChicken3.Value, (double)numChicken4.Value);
+                lblFlavor.Text = "WOAH! Butter my biscuit, ya got a Super-Chicken in there! ";
+                lblSum.Text = "Yer chickens produced a total of " + sum + " eggs today.";
+                lblAverage.Text = "Yer chickens are producin' an average of " + avg + " eggs per day.";
+                lblAverage.Visible = true;
+                lblSum.Visible = true;
+            }
             else
             {
                 imgRancher.Image = Properties.Resources.rancherHappy;
@@ -75,5 +86,9 @@ namespace Lab2_ChickenEggs
             onLeaveFocus();
         }
 
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            onLeaveFocus();
+        }
     }
 }
