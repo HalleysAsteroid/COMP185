@@ -63,6 +63,26 @@ namespace Lab3_CreditCardValidator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap creditCard {
+            get {
+                object obj = ResourceManager.GetObject("creditCard", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap creditCardTemplate {
+            get {
+                object obj = ResourceManager.GetObject("creditCardTemplate", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap htLogo {
             get {
                 object obj = ResourceManager.GetObject("htLogo", resourceCulture);
