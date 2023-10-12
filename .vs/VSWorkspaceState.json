@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Lab2_ChickenEggs"
+    "\\Lab2_ChickenEggs",
+    "\\Lab3_CreditCardValidator"
   ],
-  "SelectedNode": "\\Lab2_ChickenEggs\\Lab2_ChickenEggs.cs",
+  "SelectedNode": "\\Lab3_CreditCardValidator\\CreditCardValidator.cs",
   "PreviewInSolutionExplorer": false
 }
