@@ -1,0 +1,17 @@
+C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\bin\Debug\net7.0-windows\Lab5_TypingSchool.exe
+C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\bin\Debug\net7.0-windows\Lab5_TypingSchool.deps.json
+C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\bin\Debug\net7.0-windows\Lab5_TypingSchool.runtimeconfig.json
+C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\bin\Debug\net7.0-windows\Lab5_TypingSchool.dll
+C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\bin\Debug\net7.0-windows\Lab5_TypingSchool.pdb
+C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\obj\Debug\net7.0-windows\Lab5_TypingSchool.TypingSchool.resources
+C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\obj\Debug\net7.0-windows\Lab5_TypingSchool.csproj.GenerateResource.cache
+C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\obj\Debug\net7.0-windows\Lab5_TypingSchool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\obj\Debug\net7.0-windows\Lab5_TypingSchool.AssemblyInfoInputs.cache
+C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\obj\Debug\net7.0-windows\Lab5_TypingSchool.AssemblyInfo.cs
+C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\obj\Debug\net7.0-windows\Lab5_TypingSchool.csproj.CoreCompileInputs.cache
+C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\obj\Debug\net7.0-windows\Lab5_TypingSchool.dll
+C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\obj\Debug\net7.0-windows\refint\Lab5_TypingSchool.dll
+C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\obj\Debug\net7.0-windows\Lab5_TypingSchool.pdb
+C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\obj\Debug\net7.0-windows\Lab5_TypingSchool.genruntimeconfig.cache
+C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\obj\Debug\net7.0-windows\ref\Lab5_TypingSchool.dll
+C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\obj\Debug\net7.0-windows\Lab5_TypingSchool.Properties.Resources.resources
