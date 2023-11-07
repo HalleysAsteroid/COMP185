@@ -15,3 +15,4 @@ C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\obj\Debug\net7.0-wind
 C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\obj\Debug\net7.0-windows\Lab5_TypingSchool.genruntimeconfig.cache
 C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\obj\Debug\net7.0-windows\ref\Lab5_TypingSchool.dll
 C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\obj\Debug\net7.0-windows\Lab5_TypingSchool.Properties.Resources.resources
+C:\Users\lah111\Documents\GitHub\COMP185\Lab5_TypingSchool\obj\Debug\net7.0-windows\Lab5_TypingSchool.TypingPractice.resources

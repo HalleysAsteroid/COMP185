@@ -9,7 +9,8 @@ namespace Lab5_TypingSchool
 
         private void btnPractice_Click(object sender, EventArgs e)
         {
-
+            var practiceForm = new TypingPractice(this);
+            practiceForm.ShowDialog();
         }
 
         private void btnGrade_Click(object sender, EventArgs e)
@@ -48,6 +49,11 @@ namespace Lab5_TypingSchool
             }
 
             stamp.Play();
+        }
+
+        public void changeWPM(double wpm)
+        {
+            numWPM.Value = (decimal)wpm;
         }
 
         private void btnStudentResults_Click(object sender, EventArgs e)
