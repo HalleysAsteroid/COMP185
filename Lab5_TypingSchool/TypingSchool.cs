@@ -1,10 +1,16 @@
+using Lab5_TypingSchool.Properties;
+
 namespace Lab5_TypingSchool
 {
     public partial class TypingSchool : Form
     {
+        int iterator = 0;
+        private Image stampimage = Resources.stampPNG;
+
         public TypingSchool()
         {
             InitializeComponent();
+            //panel2.Controls.Add(imgStamp);
         }
 
         private void btnPractice_Click(object sender, EventArgs e)
@@ -48,6 +54,10 @@ namespace Lab5_TypingSchool
                     break;
             }
 
+            animationTimer.Start();
+            imgStamp1.Location = new Point(272, -128);
+            imgStamp1.Visible = true;
+
             stamp.Play();
         }
 
@@ -59,6 +69,35 @@ namespace Lab5_TypingSchool
         private void btnStudentResults_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void animationTimer_Tick(object sender, EventArgs e)
+        {
+            lblYourResults.Text = iterator.ToString();
+
+            imgStamp1.Location = new Point(imgStamp1.Location.X - 8, imgStamp1.Location.Y + 8);
+
+
+            if (iterator == 25)
+            {
+                animationTimer.Stop();
+                imgStamp1.Visible = false;
+                iterator = 0;
+            }
+            else
+            {
+                iterator++;
+            }
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+            //e.Graphics.DrawImage(stampimage, new Point(0, 0));
+        }
+
+        private void imgStamp1_Paint(object sender, PaintEventArgs e)
+        {
+            e.Graphics.DrawImage(stampimage, new Point(0, 0));
         }
     }
 }

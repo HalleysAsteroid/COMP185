@@ -2,7 +2,8 @@
 {
     public partial class TypingPractice : Form
     {
-        double practiceSeconds = 110;
+        //Change practiceSeconds value here to increase time for testing purposes
+        double practiceSeconds = 0;
         double score = 0;
         TypingSchool parentForm;
 

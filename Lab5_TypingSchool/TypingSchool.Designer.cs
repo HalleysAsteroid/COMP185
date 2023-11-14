@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             panel1 = new Panel();
             imgLogo = new PictureBox();
             btnPractice = new Button();
@@ -36,8 +37,10 @@
             lblWPM = new Label();
             lblYourResults = new Label();
             panel2 = new Panel();
+            imgStamp1 = new Panel();
             btnGrade = new Button();
             imgGrade = new PictureBox();
+            animationTimer = new System.Windows.Forms.Timer(components);
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)imgLogo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numWPM).BeginInit();
@@ -119,6 +122,7 @@
             // 
             panel2.BackColor = SystemColors.ControlLight;
             panel2.BorderStyle = BorderStyle.FixedSingle;
+            panel2.Controls.Add(imgStamp1);
             panel2.Controls.Add(btnGrade);
             panel2.Controls.Add(imgGrade);
             panel2.Controls.Add(lblYourResults);
@@ -128,6 +132,16 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(750, 625);
             panel2.TabIndex = 6;
+            panel2.Paint += panel2_Paint;
+            // 
+            // imgStamp1
+            // 
+            imgStamp1.BackColor = Color.Transparent;
+            imgStamp1.Location = new Point(72, 72);
+            imgStamp1.Name = "imgStamp1";
+            imgStamp1.Size = new Size(600, 600);
+            imgStamp1.TabIndex = 9;
+            imgStamp1.Paint += imgStamp1_Paint;
             // 
             // btnGrade
             // 
@@ -149,6 +163,11 @@
             imgGrade.SizeMode = PictureBoxSizeMode.StretchImage;
             imgGrade.TabIndex = 6;
             imgGrade.TabStop = false;
+            // 
+            // animationTimer
+            // 
+            animationTimer.Interval = 1;
+            animationTimer.Tick += animationTimer_Tick;
             // 
             // TypingSchool
             // 
@@ -188,5 +207,7 @@
         private Button btnGrade;
         public int userGrade = 0;
         System.Media.SoundPlayer stamp = new System.Media.SoundPlayer(Properties.Resources.stamp);
+        private System.Windows.Forms.Timer animationTimer;
+        private Panel imgStamp1;
     }
 }
