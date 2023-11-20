@@ -28,7 +28,7 @@
             InitializeComponent();
         }
 
-        public TypingPractice(TypingSchool inputForm):this()
+        public TypingPractice(TypingSchool inputForm) : this()
         {
             parentForm = inputForm;
         }
@@ -45,6 +45,7 @@
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            txtAnswer.ReadOnly = false;
             timer.Start();
             btnStart.Visible = false;
             lblTimer.Visible = true;
@@ -66,7 +67,12 @@
                 score = exampleWords[index] / (practiceSeconds / 60.0);
                 System.Windows.Forms.Panel panel = (System.Windows.Forms.Panel)parentForm.Controls["panel2"];
                 System.Windows.Forms.NumericUpDown changeValue = (System.Windows.Forms.NumericUpDown)panel.Controls["numWPM"];
-                changeValue.Value = (decimal)score;
+                if ((decimal)score > changeValue.Maximum)
+                {
+                    changeValue.Value = changeValue.Maximum;
+                }
+                else
+                    changeValue.Value = (decimal)score;
                 this.Close();
             }
         }

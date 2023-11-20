@@ -36,6 +36,7 @@
             timer = new System.Windows.Forms.Timer(components);
             lblTimer = new Label();
             btnStart = new Button();
+            label1 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)imgLogo).BeginInit();
             SuspendLayout();
@@ -69,8 +70,10 @@
             // 
             // txtAnswer
             // 
+            txtAnswer.BackColor = SystemColors.ControlLightLight;
             txtAnswer.Location = new Point(50, 450);
             txtAnswer.Name = "txtAnswer";
+            txtAnswer.ReadOnly = true;
             txtAnswer.Size = new Size(700, 250);
             txtAnswer.TabIndex = 3;
             txtAnswer.Text = "";
@@ -103,11 +106,21 @@
             btnStart.UseVisualStyleBackColor = false;
             btnStart.Click += btnStart_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(37, 803);
+            label1.Name = "label1";
+            label1.Size = new Size(726, 23);
+            label1.TabIndex = 6;
+            label1.Text = "Practice will complete automatically when your input matches the text shown above.";
+            // 
             // TypingPractice
             // 
             AutoScaleDimensions = new SizeF(11F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 877);
+            Controls.Add(label1);
             Controls.Add(btnStart);
             Controls.Add(lblTimer);
             Controls.Add(txtAnswer);
@@ -121,6 +134,7 @@
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)imgLogo).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -132,5 +146,6 @@
         private System.Windows.Forms.Timer timer;
         private Label lblTimer;
         private Button btnStart;
+        private Label label1;
     }
 }

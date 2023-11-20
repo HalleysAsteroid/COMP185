@@ -37,15 +37,16 @@
             lblWPM = new Label();
             lblYourResults = new Label();
             panel2 = new Panel();
-            imgStamp1 = new Panel();
             btnGrade = new Button();
             imgGrade = new PictureBox();
+            imgStamp1 = new PictureBox();
             animationTimer = new System.Windows.Forms.Timer(components);
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)imgLogo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numWPM).BeginInit();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)imgGrade).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)imgStamp1).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -82,7 +83,7 @@
             // numWPM
             // 
             numWPM.BorderStyle = BorderStyle.FixedSingle;
-            numWPM.Location = new Point(324, 80);
+            numWPM.Location = new Point(324, 110);
             numWPM.Maximum = new decimal(new int[] { 400, 0, 0, 0 });
             numWPM.Name = "numWPM";
             numWPM.Size = new Size(120, 29);
@@ -102,7 +103,7 @@
             // lblWPM
             // 
             lblWPM.AutoSize = true;
-            lblWPM.Location = new Point(147, 82);
+            lblWPM.Location = new Point(147, 112);
             lblWPM.Name = "lblWPM";
             lblWPM.Size = new Size(171, 23);
             lblWPM.TabIndex = 4;
@@ -111,42 +112,32 @@
             // lblYourResults
             // 
             lblYourResults.Font = new Font("Georgia", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            lblYourResults.Location = new Point(304, 45);
+            lblYourResults.Location = new Point(259, 45);
             lblYourResults.Name = "lblYourResults";
-            lblYourResults.Size = new Size(180, 32);
+            lblYourResults.Size = new Size(240, 32);
             lblYourResults.TabIndex = 5;
-            lblYourResults.Text = "Your Results:";
+            lblYourResults.Text = "Student's Results:";
             lblYourResults.TextAlign = ContentAlignment.TopCenter;
             // 
             // panel2
             // 
             panel2.BackColor = SystemColors.ControlLight;
             panel2.BorderStyle = BorderStyle.FixedSingle;
-            panel2.Controls.Add(imgStamp1);
             panel2.Controls.Add(btnGrade);
             panel2.Controls.Add(imgGrade);
             panel2.Controls.Add(lblYourResults);
             panel2.Controls.Add(numWPM);
             panel2.Controls.Add(lblWPM);
+            panel2.Controls.Add(imgStamp1);
             panel2.Location = new Point(25, 260);
             panel2.Name = "panel2";
-            panel2.Size = new Size(750, 625);
+            panel2.Size = new Size(750, 700);
             panel2.TabIndex = 6;
-            panel2.Paint += panel2_Paint;
-            // 
-            // imgStamp1
-            // 
-            imgStamp1.BackColor = Color.Transparent;
-            imgStamp1.Location = new Point(72, 72);
-            imgStamp1.Name = "imgStamp1";
-            imgStamp1.Size = new Size(600, 600);
-            imgStamp1.TabIndex = 9;
-            imgStamp1.Paint += imgStamp1_Paint;
             // 
             // btnGrade
             // 
             btnGrade.FlatStyle = FlatStyle.Flat;
-            btnGrade.Location = new Point(231, 115);
+            btnGrade.Location = new Point(231, 155);
             btnGrade.Name = "btnGrade";
             btnGrade.Size = new Size(300, 45);
             btnGrade.TabIndex = 7;
@@ -156,13 +147,25 @@
             // 
             // imgGrade
             // 
-            imgGrade.Image = Properties.Resources.A;
-            imgGrade.Location = new Point(175, 179);
+            imgGrade.Image = Properties.Resources.F;
+            imgGrade.Location = new Point(175, 230);
             imgGrade.Name = "imgGrade";
             imgGrade.Size = new Size(400, 400);
             imgGrade.SizeMode = PictureBoxSizeMode.StretchImage;
             imgGrade.TabIndex = 6;
             imgGrade.TabStop = false;
+            // 
+            // imgStamp1
+            // 
+            imgStamp1.BackColor = Color.Transparent;
+            imgStamp1.Image = Properties.Resources.stampPNG;
+            imgStamp1.Location = new Point(72, 122);
+            imgStamp1.Name = "imgStamp1";
+            imgStamp1.Size = new Size(600, 600);
+            imgStamp1.SizeMode = PictureBoxSizeMode.StretchImage;
+            imgStamp1.TabIndex = 8;
+            imgStamp1.TabStop = false;
+            imgStamp1.Visible = false;
             // 
             // animationTimer
             // 
@@ -174,7 +177,7 @@
             AcceptButton = btnGrade;
             AutoScaleDimensions = new SizeF(11F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 877);
+            ClientSize = new Size(800, 977);
             Controls.Add(panel2);
             Controls.Add(btnStudentResults);
             Controls.Add(btnPractice);
@@ -190,6 +193,7 @@
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)imgGrade).EndInit();
+            ((System.ComponentModel.ISupportInitialize)imgStamp1).EndInit();
             ResumeLayout(false);
         }
 
@@ -208,6 +212,6 @@
         public int userGrade = 0;
         System.Media.SoundPlayer stamp = new System.Media.SoundPlayer(Properties.Resources.stamp);
         private System.Windows.Forms.Timer animationTimer;
-        private Panel imgStamp1;
+        private PictureBox imgStamp1;
     }
 }

@@ -148,5 +148,15 @@ namespace Lab5_TypingSchool.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap typingSchoolBG {
+            get {
+                object obj = ResourceManager.GetObject("typingSchoolBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

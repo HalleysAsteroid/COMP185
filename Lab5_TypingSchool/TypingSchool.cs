@@ -7,16 +7,21 @@ namespace Lab5_TypingSchool
         int iterator = 0;
         private Image stampimage = Resources.stampPNG;
 
+
         public TypingSchool()
         {
             InitializeComponent();
-            //panel2.Controls.Add(imgStamp);
+            imgStamp1.BringToFront();
         }
 
         private void btnPractice_Click(object sender, EventArgs e)
         {
+            lblYourResults.Text = "Your Results";
+            numWPM.Value = 0;
             var practiceForm = new TypingPractice(this);
+            btnGrade.Enabled = false;
             practiceForm.ShowDialog();
+            btnGrade_Click(sender, e);
         }
 
         private void btnGrade_Click(object sender, EventArgs e)
@@ -55,9 +60,14 @@ namespace Lab5_TypingSchool
             }
 
             animationTimer.Start();
-            imgStamp1.Location = new Point(272, -128);
+            imgStamp1.Location = new Point(272, -78);
             imgStamp1.Visible = true;
+            //Temporarily sets background image of form to a screenshot of the form to fake transparency; This was the least terrible looking way I could find to do this but is still bad :)
+            panel2.BackgroundImage = Resources.typingSchoolBG;
 
+            btnPractice.Enabled = false;
+
+            //Comment out below line to disable sound effect
             stamp.Play();
         }
 
@@ -68,36 +78,28 @@ namespace Lab5_TypingSchool
 
         private void btnStudentResults_Click(object sender, EventArgs e)
         {
-
+            lblYourResults.Text = "Student's Results";
+            btnGrade.Enabled = true;
         }
 
         private void animationTimer_Tick(object sender, EventArgs e)
         {
-            lblYourResults.Text = iterator.ToString();
 
             imgStamp1.Location = new Point(imgStamp1.Location.X - 8, imgStamp1.Location.Y + 8);
-
 
             if (iterator == 25)
             {
                 animationTimer.Stop();
                 imgStamp1.Visible = false;
+                panel2.BackgroundImage = null;
                 iterator = 0;
+
+                btnPractice.Enabled = true;
             }
             else
             {
                 iterator++;
             }
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-            //e.Graphics.DrawImage(stampimage, new Point(0, 0));
-        }
-
-        private void imgStamp1_Paint(object sender, PaintEventArgs e)
-        {
-            e.Graphics.DrawImage(stampimage, new Point(0, 0));
         }
     }
 }
