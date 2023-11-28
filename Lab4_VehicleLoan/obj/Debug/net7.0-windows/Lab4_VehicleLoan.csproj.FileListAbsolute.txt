@@ -1,0 +1,17 @@
+C:\Users\theun\Documents\GitHub\COMP185\Lab4_VehicleLoan\bin\Debug\net7.0-windows\Lab4_VehicleLoan.exe
+C:\Users\theun\Documents\GitHub\COMP185\Lab4_VehicleLoan\bin\Debug\net7.0-windows\Lab4_VehicleLoan.deps.json
+C:\Users\theun\Documents\GitHub\COMP185\Lab4_VehicleLoan\bin\Debug\net7.0-windows\Lab4_VehicleLoan.runtimeconfig.json
+C:\Users\theun\Documents\GitHub\COMP185\Lab4_VehicleLoan\bin\Debug\net7.0-windows\Lab4_VehicleLoan.dll
+C:\Users\theun\Documents\GitHub\COMP185\Lab4_VehicleLoan\bin\Debug\net7.0-windows\Lab4_VehicleLoan.pdb
+C:\Users\theun\Documents\GitHub\COMP185\Lab4_VehicleLoan\obj\Debug\net7.0-windows\Lab4_VehicleLoan.frmVehicleLoan.resources
+C:\Users\theun\Documents\GitHub\COMP185\Lab4_VehicleLoan\obj\Debug\net7.0-windows\Lab4_VehicleLoan.csproj.GenerateResource.cache
+C:\Users\theun\Documents\GitHub\COMP185\Lab4_VehicleLoan\obj\Debug\net7.0-windows\Lab4_VehicleLoan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\theun\Documents\GitHub\COMP185\Lab4_VehicleLoan\obj\Debug\net7.0-windows\Lab4_VehicleLoan.AssemblyInfoInputs.cache
+C:\Users\theun\Documents\GitHub\COMP185\Lab4_VehicleLoan\obj\Debug\net7.0-windows\Lab4_VehicleLoan.AssemblyInfo.cs
+C:\Users\theun\Documents\GitHub\COMP185\Lab4_VehicleLoan\obj\Debug\net7.0-windows\Lab4_VehicleLoan.csproj.CoreCompileInputs.cache
+C:\Users\theun\Documents\GitHub\COMP185\Lab4_VehicleLoan\obj\Debug\net7.0-windows\Lab4_VehicleLoan.dll
+C:\Users\theun\Documents\GitHub\COMP185\Lab4_VehicleLoan\obj\Debug\net7.0-windows\refint\Lab4_VehicleLoan.dll
+C:\Users\theun\Documents\GitHub\COMP185\Lab4_VehicleLoan\obj\Debug\net7.0-windows\Lab4_VehicleLoan.pdb
+C:\Users\theun\Documents\GitHub\COMP185\Lab4_VehicleLoan\obj\Debug\net7.0-windows\Lab4_VehicleLoan.genruntimeconfig.cache
+C:\Users\theun\Documents\GitHub\COMP185\Lab4_VehicleLoan\obj\Debug\net7.0-windows\ref\Lab4_VehicleLoan.dll
+C:\Users\theun\Documents\GitHub\COMP185\Lab4_VehicleLoan\obj\Debug\net7.0-windows\Lab4_VehicleLoan.Properties.Resources.resources
