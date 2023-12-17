@@ -1,0 +1,16 @@
+C:\Users\theun\Documents\GitHub\COMP185\Lab7_SolarPanel\bin\Debug\net7.0-windows\Lab7_SolarPanel.exe
+C:\Users\theun\Documents\GitHub\COMP185\Lab7_SolarPanel\bin\Debug\net7.0-windows\Lab7_SolarPanel.deps.json
+C:\Users\theun\Documents\GitHub\COMP185\Lab7_SolarPanel\bin\Debug\net7.0-windows\Lab7_SolarPanel.runtimeconfig.json
+C:\Users\theun\Documents\GitHub\COMP185\Lab7_SolarPanel\bin\Debug\net7.0-windows\Lab7_SolarPanel.dll
+C:\Users\theun\Documents\GitHub\COMP185\Lab7_SolarPanel\bin\Debug\net7.0-windows\Lab7_SolarPanel.pdb
+C:\Users\theun\Documents\GitHub\COMP185\Lab7_SolarPanel\obj\Debug\net7.0-windows\Lab7_SolarPanel.frmSolarPanel.resources
+C:\Users\theun\Documents\GitHub\COMP185\Lab7_SolarPanel\obj\Debug\net7.0-windows\Lab7_SolarPanel.csproj.GenerateResource.cache
+C:\Users\theun\Documents\GitHub\COMP185\Lab7_SolarPanel\obj\Debug\net7.0-windows\Lab7_SolarPanel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\theun\Documents\GitHub\COMP185\Lab7_SolarPanel\obj\Debug\net7.0-windows\Lab7_SolarPanel.AssemblyInfoInputs.cache
+C:\Users\theun\Documents\GitHub\COMP185\Lab7_SolarPanel\obj\Debug\net7.0-windows\Lab7_SolarPanel.AssemblyInfo.cs
+C:\Users\theun\Documents\GitHub\COMP185\Lab7_SolarPanel\obj\Debug\net7.0-windows\Lab7_SolarPanel.csproj.CoreCompileInputs.cache
+C:\Users\theun\Documents\GitHub\COMP185\Lab7_SolarPanel\obj\Debug\net7.0-windows\Lab7_SolarPanel.dll
+C:\Users\theun\Documents\GitHub\COMP185\Lab7_SolarPanel\obj\Debug\net7.0-windows\refint\Lab7_SolarPanel.dll
+C:\Users\theun\Documents\GitHub\COMP185\Lab7_SolarPanel\obj\Debug\net7.0-windows\Lab7_SolarPanel.pdb
+C:\Users\theun\Documents\GitHub\COMP185\Lab7_SolarPanel\obj\Debug\net7.0-windows\Lab7_SolarPanel.genruntimeconfig.cache
+C:\Users\theun\Documents\GitHub\COMP185\Lab7_SolarPanel\obj\Debug\net7.0-windows\ref\Lab7_SolarPanel.dll

@@ -131,7 +131,7 @@
             groupBox1.Controls.Add(radNew);
             groupBox1.Controls.Add(radUsed);
             groupBox1.Font = new Font("Georgia", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            groupBox1.Location = new Point(424, 80);
+            groupBox1.Location = new Point(724, 80);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(124, 142);
             groupBox1.TabIndex = 3;
@@ -161,12 +161,13 @@
             radUsed.TabStop = true;
             radUsed.Text = "Used";
             radUsed.UseVisualStyleBackColor = true;
+            radUsed.CheckedChanged += radUsed_CheckedChanged;
             // 
             // imgLogo
             // 
             imgLogo.Anchor = AnchorStyles.Top;
             imgLogo.Image = Properties.Resources.htLogo;
-            imgLogo.Location = new Point(176, 10);
+            imgLogo.Location = new Point(326, 10);
             imgLogo.Name = "imgLogo";
             imgLogo.Size = new Size(256, 64);
             imgLogo.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -177,7 +178,7 @@
             // 
             btnCalculate.Anchor = AnchorStyles.Bottom;
             btnCalculate.FlatStyle = FlatStyle.Flat;
-            btnCalculate.Location = new Point(165, 647);
+            btnCalculate.Location = new Point(315, 647);
             btnCalculate.Name = "btnCalculate";
             btnCalculate.Size = new Size(75, 23);
             btnCalculate.TabIndex = 5;
@@ -189,18 +190,19 @@
             // 
             btnClear.Anchor = AnchorStyles.Bottom;
             btnClear.FlatStyle = FlatStyle.Flat;
-            btnClear.Location = new Point(263, 647);
+            btnClear.Location = new Point(413, 647);
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(75, 23);
             btnClear.TabIndex = 6;
             btnClear.Text = "Clear";
             btnClear.UseVisualStyleBackColor = true;
+            btnClear.Click += btnClear_Click;
             // 
             // btnExit
             // 
             btnExit.Anchor = AnchorStyles.Bottom;
             btnExit.FlatStyle = FlatStyle.Flat;
-            btnExit.Location = new Point(361, 647);
+            btnExit.Location = new Point(511, 647);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(75, 23);
             btnExit.TabIndex = 7;
@@ -215,7 +217,7 @@
             grpDisplay.Controls.Add(listDisplay);
             grpDisplay.Location = new Point(52, 239);
             grpDisplay.Name = "grpDisplay";
-            grpDisplay.Size = new Size(496, 402);
+            grpDisplay.Size = new Size(796, 402);
             grpDisplay.TabIndex = 8;
             grpDisplay.TabStop = false;
             grpDisplay.Text = "Interest && Principal Payments";
@@ -224,12 +226,11 @@
             // 
             lblAnnualInterest.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             lblAnnualInterest.AutoSize = true;
-            lblAnnualInterest.Location = new Point(312, 18);
+            lblAnnualInterest.Location = new Point(612, 18);
             lblAnnualInterest.Name = "lblAnnualInterest";
             lblAnnualInterest.Size = new Size(173, 16);
             lblAnnualInterest.TabIndex = 1;
             lblAnnualInterest.Text = "Annual Interest Rate: 4.5%";
-            lblAnnualInterest.Visible = false;
             // 
             // listDisplay
             // 
@@ -238,7 +239,7 @@
             listDisplay.FormattingEnabled = true;
             listDisplay.Location = new Point(11, 49);
             listDisplay.Name = "listDisplay";
-            listDisplay.Size = new Size(476, 329);
+            listDisplay.Size = new Size(776, 329);
             listDisplay.TabIndex = 0;
             listDisplay.Visible = false;
             // 
@@ -246,7 +247,7 @@
             // 
             AutoScaleMode = AutoScaleMode.None;
             CancelButton = btnExit;
-            ClientSize = new Size(600, 699);
+            ClientSize = new Size(900, 699);
             Controls.Add(grpDisplay);
             Controls.Add(btnExit);
             Controls.Add(btnClear);

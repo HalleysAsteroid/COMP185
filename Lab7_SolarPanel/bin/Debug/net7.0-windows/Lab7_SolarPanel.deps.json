@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Lab7_SolarPanel/1.0.0": {
+        "runtime": {
+          "Lab7_SolarPanel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab7_SolarPanel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
